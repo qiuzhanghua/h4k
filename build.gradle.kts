@@ -16,11 +16,11 @@ application {
 }
 
 dependencies {
-    implementation(platform("org.http4k:http4k-bom:3.258.0"))
+    implementation(platform("org.http4k:http4k-bom:3.259.0"))
     implementation("org.http4k:http4k-core")
 //    implementation("org.http4k:http4k-server-jetty")
     implementation("org.http4k:http4k-server-netty")
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.0")
-    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.6.0")
+    testImplementation("org.junit.jupiter:junit-jupiter-api:5.6.2")
+    testImplementation("org.junit.jupiter:junit-jupiter-engine:5.6.2")
 
 }
